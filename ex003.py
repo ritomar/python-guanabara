@@ -1,7 +1,7 @@
 """
     Exercício Python #003 - Somando dois número
 
-    Faça um programa que leia o ome de uma pessoa e mostre uma
+    Faça um programa que leia o nome de uma pessoa e mostre uma
     mensagem de boas-vindas.
 """
 
