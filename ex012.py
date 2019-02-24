@@ -6,13 +6,13 @@
 """
 
 
-def desconto(valor, percentual):
+def porcentagem(valor, percentual):
     return valor * (percentual / 100)
 
 
 preco = float(input("Qual é o preço do produto? R$ "))
 percentual_desc = 5  # Fixado o desconto em 5%, pode ler esse valor pelo teclado.
-valor_desc = desconto(preco, percentual_desc)
+valor_desc = porcentagem(preco, percentual_desc)
 novo_preco = preco - valor_desc
 print(
     f'O produto que custava R$ {preco:.2f}, na promoção '
