@@ -1,9 +1,11 @@
 """
-    Exercício Python #005 - Antecessor e Sucessor
+    Exercício Python #006 - Dobro, Triplo e Raiz Quadrada
 
-    Faça um progrma que leia um número inteiro e mostre na tela o seu
-    sucessor e o seu antecessor.
+    Crie um algoritmo que leia um número e mostre seu dobro, triplo e
+    raiz quadrada.
 """
 
 n = int(input("Digite um número: "))
-print(f'Analisando o valor {n}, seu antecessor é {n - 1} e o sucessor é {n + 1}.')
+print(f'O dobro de {n} vale {n * 2}.')
+print(f'O triplo de {n} vale {n * 3}.')
+print(f'A raiz quadrada de {n} vale {n ** (1/2):.2f}.')
